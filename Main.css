@@ -47,6 +47,7 @@ h1{
     width: 100%;
 }
 #left{
+    
     /* border: 2px solid red; */
     width: 49%;
     display: inline-block;
@@ -54,12 +55,14 @@ h1{
     height: 400px;
     
 }
+
 #text>button{
     padding: 10px 30px;
     border-radius: 10px;
-    background-color: aqua;
+    background-color:  #156A6B;
     color: white;
     margin-top: 10px;
+    margin-left: 0px;
 }
 #right{
     /* border: 2px solid green; */
@@ -73,14 +76,15 @@ h1{
 }
 #text{
     /* border: 2px solid yellow; */
-    font-size: large;
+    padding-top: 120px;
+    font-size: x-large;
     text-align: left;
-    width: 300px;
+    width: 500px;
     margin: 50px 30px;
     
 }
 #text>h1{
-    font-size: x-large;
+    font-size: large;
     font-style: italic;
     text-align: left;
     padding-left: 0px;
@@ -95,6 +99,9 @@ h1{
     text-align: center;
     /* border: 2px solid yellowgreen; */
     margin: 20px auto;
+    font-style: oblique;
+    font-size: x-large;
+    
 }
 
 #card1{
