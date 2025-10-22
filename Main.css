@@ -3,9 +3,13 @@
     margin: 0;
     /* box-sizing: border-box; */
 }
+body{
+    margin: 0px;
+    padding: 0px;
+}
 .header{
     
-    
+    background-color: #156A6B;
     min-height: 80px;
     max-height: 100px;
     padding-top: 25px;
@@ -13,17 +17,21 @@
     
     
 }
+#log{
+    /* margin-top: 0px;
+    padding-top: 0px; */
+    width: 15%;
+    /* border: 2px solid black; */
+    height: 30px;
+   
+}
 #navbars{
     display: flex;
     gap: 30px;
     justify-content: center;
     padding-left: 700px;
     
-    
-    
-    
-    
-    
+     
 }
 h1{
     padding-left: 100px;
